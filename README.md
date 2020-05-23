@@ -9,9 +9,9 @@ Simple email validator service
 `docker build -t app .`
 
 ## Run
-Local: `docker run -it -p 8080:8080 -e PORT=8080 app`
+Local: `docker run -t -p 8080:8080 -e PORT=8080 app`
 
-Remote: `docker run -it -p 8080:8080 -e PORT=8080 cinjoff/email-validator-deno:v0.1`
+Remote: `docker run -t -p 8080:8080 -e PORT=8080 cinjoff/email-validator-deno:v0.1`
 
 NOTE: port defaults to 8000 unless PORT environment variable is specified
 
