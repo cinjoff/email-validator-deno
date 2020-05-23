@@ -26,6 +26,9 @@ curl -X POST \
 }'
 ```
 
-### Supported domains: gmail.com, yahoo.com, abv.bg, rekki.com
-### SMTP validator failure can be simulated by providing email with more than 25 char length
+### Supported domains
+gmail.com, yahoo.com, abv.bg, rekki.com
+
+### SMTP validation
+Failure responses can be simulated by providing email with more than 25 char length
 
