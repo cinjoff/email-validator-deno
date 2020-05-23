@@ -4,6 +4,7 @@
 - ~28 MB final docker image
 
 # Build (only needed if starting locally)
+`docker build -t app .`
 
 # Run
 Local: `docker run -it -p 8080:8080 -e PORT=8080 app`
