@@ -7,10 +7,7 @@ enum Reason {
 const SmtpValidator: Validator = {
   name: "smtp",
   validate: async (email: string) => {
-    console.log(email)
-    console.log(email.length)
     if (email.length > 25) {
-      console.log("LENGTH EXCEEDS")
       return {
         valid: false,
         reason: Reason.UNABLE_TO_CONNECT,
